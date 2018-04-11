@@ -94,18 +94,18 @@
 
 
 
-<meta name="description" content="1.python的学习，python从上周的偏函数看到文件的读写： 利用functools的partial帮我们创建一个偏函数，不需要自己定义： 定义转化二进制的函数： 12def int2(x,base=2):  return int(x,base)  而利用偏函数直接构造： 1234import functoolsint2=functools.partial(int,base=2)调用：int">
+<meta name="description" content="1.python的学习，python从上周的偏函数看到文件的读写： 利用functools的partial帮我们创建一个偏函数，不需要自己定义： 定义转化二进制的函数： 12def int2(x,base=2):  return int(x,base)  而利用偏函数直接构造：">
 <meta name="keywords" content="周报">
 <meta property="og:type" content="article">
 <meta property="og:title" content="IT工作室第五周周报">
 <meta property="og:url" content="http://yoursite.com/2018/04/09/IT工作室第五周周报/index.html">
 <meta property="og:site_name" content="Jone">
-<meta property="og:description" content="1.python的学习，python从上周的偏函数看到文件的读写： 利用functools的partial帮我们创建一个偏函数，不需要自己定义： 定义转化二进制的函数： 12def int2(x,base=2):  return int(x,base)  而利用偏函数直接构造： 1234import functoolsint2=functools.partial(int,base=2)调用：int">
+<meta property="og:description" content="1.python的学习，python从上周的偏函数看到文件的读写： 利用functools的partial帮我们创建一个偏函数，不需要自己定义： 定义转化二进制的函数： 12def int2(x,base=2):  return int(x,base)  而利用偏函数直接构造：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-11T15:19:35.913Z">
+<meta property="og:updated_time" content="2018-04-11T15:29:06.223Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="IT工作室第五周周报">
-<meta name="twitter:description" content="1.python的学习，python从上周的偏函数看到文件的读写： 利用functools的partial帮我们创建一个偏函数，不需要自己定义： 定义转化二进制的函数： 12def int2(x,base=2):  return int(x,base)  而利用偏函数直接构造： 1234import functoolsint2=functools.partial(int,base=2)调用：int">
+<meta name="twitter:description" content="1.python的学习，python从上周的偏函数看到文件的读写： 利用functools的partial帮我们创建一个偏函数，不需要自己定义： 定义转化二进制的函数： 12def int2(x,base=2):  return int(x,base)  而利用偏函数直接构造：">
 
 
 
@@ -361,6 +361,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">int2</span><span class="params">(x,base=<span class="number">2</span>)</span>:</span></span><br><span class="line">  <span class="keyword">return</span> int(x,base)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>而利用偏函数直接构造：</p>
+<a id="more"></a>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> functools</span><br><span class="line">int2=functools.partial(int,base=<span class="number">2</span>)</span><br><span class="line">调用：</span><br><span class="line">int2（<span class="string">'100000'</span>）</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>获取对象信息的几个方法：<br>type()判断对象类型<br>dir()获取一个对象的所有属性和方法<br>hasattr()判断fp对象是否存在read方法</p>
